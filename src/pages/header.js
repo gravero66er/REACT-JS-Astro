@@ -11,7 +11,7 @@ function Header() {
         params={{
           particles: {
             number: {
-              value: 130,
+              value: 150,
             },
             size: {
               value: 2,
@@ -20,7 +20,7 @@ function Header() {
           interactivity: {
             events: {
               onhover: {
-                enable: true,
+                enable: false,
                 mode: "repulse",
               },
             },
